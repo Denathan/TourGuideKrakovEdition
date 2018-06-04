@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tour Guide Krakov Edition</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="welcome_header">Visit Cracow!</string>
+    <string name="welcome">Let me be your guide.</string>
+    <string name="nav_title">CRACOW</string>
+    <string name="cultural">Cultural</string>
+    <string name="restaurants">Restaurants</string>
+    <string name="party">Party</string>
+    <string name="hotels">Hotels</string>
+    <string name="share">Share</string>
+    <string name="send">Send</string>
+    <string name="nav_sub_title">Visit the beautiful old town!</string>
+    <string name="communicate">Communicate</string>
+</resources>
