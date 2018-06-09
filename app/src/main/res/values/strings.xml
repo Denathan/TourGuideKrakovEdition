@@ -17,4 +17,82 @@
     <string name="send">Send</string>
     <string name="nav_sub_title">Visit the beautiful old town!</string>
     <string name="communicate">Communicate</string>
+    <string name="rate_five_stars">★★★★★</string>
+    <string name="rate_four_stars">★★★★</string>
+    <string name="rate_three_stars">★★★</string>
+
+    <!--Cultural-->
+    <string name="cultural_low_price">1€</string>
+    <string name="cultural_medium_price">2.50€</string>
+    <string name="cultural_high_price">4€</string>
+    <string name="cultural_title_1">Oskar Schindler’s Factory</string>
+    <string name="cultural_dscrb_1">Housed in the very industrial hall that was used by Oskar Schindler as an enamel plant back in WWII, this is surely one of the most fascinating museums in Krakow.</string>
+    <string name="cultural_title_2">Pharmacy Museum</string>
+    <string name="cultural_dscrb_2">Test tubes and dust-caked glass bottles of all shapes and sizes are crammed into the various historic pharmacy rooms of this interesting and quirky little museum.</string>
+    <string name="cultural_title_3">Auschwitz-Birkenau</string>
+    <string name="cultural_dscrb_3">The Auschwitz-Birkenau Memorial and Museum is perhaps the most sobering of all the WWII relics in Europe.</string>
+    <string name="cultural_title_4">Rynek Underground</string>
+    <string name="cultural_dscrb_4">Set beneath the cobbles of the Main Market Square, the Rynek Underground Museum offers a journey back in time; back to when merchants from all over Slavic Europe would have traded cloth and wares in this sprawling plaza in the heart of the town.</string>
+    <string name="cultural_title_5">MOCAK Museum of Contemporary Art</string>
+    <string name="cultural_dscrb_5">Just a glimpse at the swish, Bauhaus-style shell of the MOCAK museum in Podgorze is enough to hint at the wonders that lurk within.</string>
+    <string name="cultural_title_6">Lost Souls Alley</string>
+    <string name="cultural_dscrb_6">Haunting ghosts and spine-tingling ghouls await visitors to this spooky museum on Florianska Street.</string>
+
+    <!--Restaurants-->
+    <string name="restaurant_low_price">6–12€</string>
+    <string name="restaurant_medium_price">12–20€</string>
+    <string name="restaurant_high_price">+20€</string>
+    <string name="restaurant_title_1">Cafe Oranzeria-Percheron Rest.</string>
+    <string name="restaurant_dscrb_1">Café Oranzeria restaurant is located on the top floor of the four star Hotel Kossak.</string>
+    <string name="restaurant_title_2">Meho Cafe Bar &amp; Garden</string>
+    <string name="restaurant_dscrb_2">The sunny and serene interior allows a breath of fresh air compared to cluttered, murky venues in the Old Town.</string>
+    <string name="restaurant_title_3">Hummus Amamamusi</string>
+    <string name="restaurant_dscrb_3">Augustiańska 3 is just the address to go when you\'re in for both a healthy snack and a satisfying meal.</string>
+    <string name="restaurant_title_4">NOLIO</string>
+    <string name="restaurant_dscrb_4">The place’s philosophy is to appreciate the sweetness of doing nothing.</string>
+    <string name="restaurant_title_5">Eataway</string>
+    <string name="restaurant_dscrb_5">A sort of couchsurfing for food lovers, Eataway is a new idea to bring home cooks and guests together, providing a refreshing alternative to either eating at home or eating at a restaurant.</string>
+    <string name="restaurant_title_6">MoaBurger</string>
+    <string name="restaurant_dscrb_6">MoaBurger is a family business created out of passion for good food. We serve the best quality meat and the freshest possible ingredients available on the market. </string>
+    <string name="restaurant_title_7">Starka Restaurant</string>
+    <string name="restaurant_dscrb_7">Starka Restaurant is famed in these parts not only for their sumptuous Polish cuisine, but also for their head-spinning brand of vodkas, such as cranberry or ginger flavour, concocted on these very premises.</string>
+
+    <!--Party-->
+    <string name="party_low_price">2€</string>
+    <string name="party_medium_price">3.50€</string>
+    <string name="party_high_price">5€</string>
+    <string name="party_title_1">Irish Pub Pod Papugami</string>
+    <string name="party_dscrb_1">A nice amalgamation of classic Irish pub and Cracovian cellar bar.</string>
+    <string name="party_title_2">Mercy Brown</string>
+    <string name="party_dscrb_2">The word is out on this pseudo-speakeasy, and now that they\'ve normalised their opening hours we're lifting the veil on the best cocktail bar in Kraków.</string>
+    <string name="party_title_3">Forum Przestrzenie</string>
+    <string name="party_dscrb_3">Opening in the formerly abandoned, monstrous and much-maligned Soviet-era Forum Hotel, Forum Przestrzenie immediately vaults itself to the top of the list of Kraków\'s most original, intriguing and hip locales</string>
+    <string name="party_title_4">Tram Bar</string>
+    <string name="party_dscrb_4">Though looking like a downtrodden dive bar in the midst of the drunken late night din, Tram Bar actually serves as a sophisticated escape from the shenanigans taking place just beyond its door.</string>
+    <string name="party_title_5">Hard Rock Cafe</string>
+    <string name="party_dscrb_5">Sit back enjoying your cocktail or beer overlooking the market square and Cloth Hall from Hard Rock’s modern split-level bar. </string>
+    <string name="party_title_6">Le Scandale</string>
+    <string name="party_dscrb_6">Le Scandale unfolds over a series of sleek rooms draped with sultry ladies and sharp-dressed business sharks, before revealing an enormous garden (heated in winter) in the back.</string>
+    <string name="party_title_7">Mojito Caffé</string>
+    <string name="party_dscrb_7">As the name implies, Mojito Caffé marries coffee culture with craft cocktails - and quite literally in the form of their exciting coffee cocktails, which are a great way to get the night rolling.</string>
+    <string name="party_title_8">Shisha Club by Bollywood</string>
+    <string name="party_dscrb_8">An Indian-owned den of oriental exotica, Shisha Club\'s cup runneth over with draped fabrics, oriental rugs, stained glass lanterns, colourful cushions and intricate tiles.</string>
+
+    <!--Hotels-->
+    <string name="hotel_low_price">10–15€</string>
+    <string name="hotel_medium_price">15–30€</string>
+    <string name="hotel_high_price">+30€</string>
+    <string name="hotel_title_1">Hotel Kossak</string>
+    <string name="hotel_dscrb_1">It\'s a modern boutique hotel with 60 rooms and three restaurants, and also boasts a state of the art conference room for business guests.</string>
+    <string name="hotel_title_2">Sheraton Krakow Hotel</string>
+    <string name="hotel_dscrb_2">Although a brand new arrival on the Cracow hotel scene, Sheraton has managed to acquire what is arguably the best location in town.</string>
+    <string name="hotel_title_3">Opera Apartment</string>
+    <string name="hotel_dscrb_3">This modern, yet homely, locale makes for an excellent choice for couples looking for a Krakow apartment for the weekend (or longer!).</string>
+    <string name="hotel_title_4">Deco Hostel</string>
+    <string name="hotel_dscrb_4">Poland was the toast of Paris\'s pre-war international exhibition, winning more prizes than any other country.</string>
+    <string name="hotel_title_5">Hotel Copernicus</string>
+    <string name="hotel_dscrb_5">Copernicus is considered the premier Krakow hotel, with an outstanding restaurant and service throughout that\'s second to none.</string>
+    <string name="hotel_title_6">Zamek Korzkiew</string>
+    <string name="hotel_dscrb_6">The Zamek Korzkiew is located in picturesque countryside just outside Cracow, and the interiors have been tastefully renovated to combine Old World style with modern convenience.</string>
+
 </resources>

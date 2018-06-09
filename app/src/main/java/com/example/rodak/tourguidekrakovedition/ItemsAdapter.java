@@ -1,19 +1,18 @@
 package com.example.rodak.tourguidekrakovedition;
 
-import android.app.Activity;
+import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.TextView;
-
-import com.example.rodak.tourguidekrakovedition.dummy.ListItem;
 
 import java.util.ArrayList;
 
 public class ItemsAdapter extends ArrayAdapter<ListItem> {
 
-    public ItemsAdapter(Activity context, ArrayList<ListItem> itemsList) {
+    public ItemsAdapter(Context context, ArrayList<ListItem> itemsList) {
         super(context, 0, itemsList);
     }
 
@@ -25,11 +24,24 @@ public class ItemsAdapter extends ArrayAdapter<ListItem> {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
-        SongsList songsList = getItem(position);
-        TextView nameTextView = (TextView) listItemView.findViewById(R.id.song_title);
-        nameTextView.setText(songsList.getSongtitle());
-        TextView numberTextView = (TextView) listItemView.findViewById(R.id.artist_name);
-        numberTextView.setText(songsList.getArtistName());
+
+        ImageView photo = (ImageView) listItemView.findViewById(R.id.photo);
+
+        if (listItem.getPhoto() != 0){
+            photo.setVisibility(View.VISIBLE);
+            photo.setImageResource(listItem.getPhoto());
+        } else {
+            photo.setVisibility(View.GONE);
+        }
+
+        TextView titleTextView = (TextView) listItemView.findViewById(R.id.item_title);
+        titleTextView.setText(listItem.getName());
+        TextView descrbTextView = (TextView) listItemView.findViewById(R.id.item_dscrb);
+        descrbTextView.setText(listItem.getDscrb());
+        TextView openingTextView = (TextView) listItemView.findViewById(R.id.item_hours);
+        openingTextView.setText(listItem.getOpeningTime());
+        TextView ratingTextView = (TextView) listItemView.findViewById(R.id.item_rating);
+        ratingTextView.setText(listItem.getRate());
         return listItemView;
     }
 }

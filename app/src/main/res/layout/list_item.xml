@@ -1,34 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:padding="@dimen/dp12"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:padding="@dimen/dp12">
 
-    <!--//TODO
-    change styles-->
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="@dimen/dp80"
+        android:layout_height="@dimen/dp80"
+        android:padding="@dimen/dp6"
+        android:src="@drawable/cracow_crest"
+        android:scaleType="centerCrop"/>
 
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
-
+        android:paddingLeft="@dimen/dp16">
         <TextView
             android:id="@+id/item_title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="black"/>
-
+            android:textColor="@color/black"
+            android:textSize="@dimen/sp18" />
         <TextView
             android:id="@+id/item_dscrb"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="gray"/>
-
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp14" />
     </LinearLayout>
 
     <LinearLayout
@@ -36,21 +38,18 @@
         android:layout_height="wrap_content"
         android:layout_weight="0"
         android:orientation="vertical"
-        android:paddingLeft="16dp">
-
+        android:paddingLeft="@dimen/dp16">
         <TextView
             android:id="@+id/item_hours"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="18sp"
-            android:textColor="gray"/>
-
+            android:textColor="@color/gray"
+            android:textSize="@dimen/sp18" />
         <TextView
             android:id="@+id/item_rating"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="gray"/>
-
+            android:textColor="@color/gold" />
     </LinearLayout>
 
 </LinearLayout>
