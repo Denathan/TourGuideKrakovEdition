@@ -6,7 +6,7 @@
 
 **Project Description:** Create an app to guide a user around a city or location of your choice!
 
-**What I learnt:**
+**What I've learned:**
 -   Planning app design and navigation before coding
 -   Selecting proper data structures to store lists of information
 -   Building layouts to display those lists of data
